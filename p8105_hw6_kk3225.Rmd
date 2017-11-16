@@ -1,0 +1,16 @@
+---
+title: "p8105_hw6_kk3225"
+author: "Kwangmin Kim"
+date: "November 16, 2017"
+output: html_document
+---
+
+I worked with Faith Parson(Uni: fep2110)
+
+### A website produced in Problem 3 
+
+describes the data you used and any relevant processing steps. Your landing page should also link to the dashboard from Problem 1 (hosted as part of the website), to the dashboard from Problem 2, and to the GitHub repo(s) that underly your dashboards and the webpage.
+
+
+The GitHub repo containing our solution to this problem is [here](https://github.com/Boxuan-Li/p8105_hw4_bl2689-Problem1).
+

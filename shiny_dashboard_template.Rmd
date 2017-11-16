@@ -20,6 +20,7 @@ library(readr)
 library(lubridate)
 library(tidyverse)
 library(stringr)
+library(rsconnect)
 
 nyc_inspections = read_csv("./data/DOHMH_New_York_City_Restaurant_Inspection_Results.csv.gz",
                            col_types = "cccccccccccccccccc", na = c("NA", "N/A")) %>%
