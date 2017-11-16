@@ -6,7 +6,11 @@ output:
   runtime: shiny
 ---
 
-```{r setup, include=FALSE}
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+```{r get_data}
 library(flexdashboard)
 library(shiny)
 library(plotly)
@@ -16,9 +20,7 @@ library(readr)
 library(lubridate)
 library(tidyverse)
 library(stringr)
-```
 
-```{r get_data}
 nyc_inspections = read_csv("./data/DOHMH_New_York_City_Restaurant_Inspection_Results.csv.gz",
                            col_types = "cccccccccccccccccc", na = c("NA", "N/A")) %>%
   clean_names() 
@@ -43,8 +45,6 @@ tidy_restaurant = nyc_inspections %>%
 ```
 
 
-Column {.sidebar}
------------------------------------------------------------------------
 
 ```{r}
 boros = tidy_restaurant %>% distinct(boro) %>% pull()
