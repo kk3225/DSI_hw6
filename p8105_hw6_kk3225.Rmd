@@ -9,8 +9,11 @@ I worked with Faith Parson(Uni: fep2110)
 
 ### A website produced in Problem 3 
 
-describes the data you used and any relevant processing steps. Your landing page should also link to the dashboard from Problem 1 (hosted as part of the website), to the dashboard from Problem 2, and to the GitHub repo(s) that underly your dashboards and the webpage.
+[My homwwork website is(landing page)](https://kk3225.github.io/DSI_hw6/index.html)
+[Dashboard](https://kk3225.github.io/DSI_hw6/nyc_rest_insp_dashboard.html)
+[repository for dashboard](https://github.com/kk3225/DSI_hw6)
+[Shiny](https://faithparsons.shinyapps.io/dsi_hw6_shiny/).
+[rsepository for shiny](https://github.com/FaithParsons/HW6_Shiny)
 
-
-The GitHub repo containing our solution to this problem is [here](https://github.com/Boxuan-Li/p8105_hw4_bl2689-Problem1).
-
+[Original Dashboard Repository with errors](https://github.com/kk3225/p8105_hw6_kk3225_p3)
+Since p8105_hw6_kk3225_p3 repository

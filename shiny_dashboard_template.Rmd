@@ -137,19 +137,3 @@ renderPlotly({
 })
 ```
 
-### Number of restaurants by cuisine type and number of violations by a single restaurant
-```{r}
-renderPlotly({
-  cuisine_violations %>%
-  mutate(text_label = str_c("Cuisine: ", cusin, 
-                            "\nNumber of restaurants: ", format(nresto, nsmall=1, big.mark = ","),
-                            "\nMax violations: ", max_viol)) %>%
-  plot_ly(x = ~max_viol, y = ~nresto, type = "scatter", mode = "markers",
-          text = ~text_label) %>%
-    layout(
-      xaxis = list(title = "Number of restaurants per cuisine type"),
-      yaxis = list(title = "Max violations by a restaurant")
-    )
-})
-```
-

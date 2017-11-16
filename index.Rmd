@@ -3,3 +3,13 @@ title: "NYC Restaurant Inspections!"
 ---
 
 ### Restaurant
+
+
+
+[Dashboard](https://kk3225.github.io/DSI_hw6/nyc_rest_insp_dashboard.html)
+[repository for dashboard](https://github.com/kk3225/DSI_hw6)
+[Shiny](https://faithparsons.shinyapps.io/dsi_hw6_shiny/).
+[rsepository for shiny](https://github.com/FaithParsons/HW6_Shiny)
+
+[Original Dashboard Repository with errors](https://github.com/kk3225/p8105_hw6_kk3225_p3)
+
