@@ -107,6 +107,7 @@ Row {.tabset .tabset-fade}
 renderPlotly({tidy_restaurant%>%
   mutate(date =  as.POSIXct(date),
          date = lubridate::floor_date(date, unit ="month"))%>%
+  filter(boro == input$boro_choice & grade == input$grade_choice & cusin == input$cuisine_choice)%>%
   count(date, grade)%>%
   filter(date!='1900-01-01')%>%  
   plot_ly(x = ~date, y = ~n, type = 'scatter', mode = 'lines', color = ~grade)%>%
