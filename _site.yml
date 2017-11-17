@@ -5,8 +5,8 @@ navbar:
   right:
     - text: "dashboard"
       href: nyc_rest_insp_dashboard.html
-    - icon: fa-github fa-lg
-      href: http://github.com/faithparsons/
+    - text: "Shiny"
+      href: https://faithparsons.shinyapps.io/dsi_hw6_shiny/
     - icon: fa-github fa-lg
       href: https://github.com/kk3225/
 output:

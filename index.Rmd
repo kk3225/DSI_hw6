@@ -2,14 +2,30 @@
 title: "NYC Restaurant Inspections!"
 ---
 
-### Restaurant
+### NYC Restaurant Inspections
+
+We used the NYC Restaurant Insepctions data.
+
+First, we tidied the dataset through the following steps:
+
+Step1) we deleted records with inspection dates 1900-01-01 because it seems to be an outlier or used for setting the data, which makes it hard to see the first graph. 
+Step2) we extracted the inspection date as a date variable.
+Step3) we extracted and releveled year and month variables from inspection date to see changed in time.
+Step4) we renamed variables to describe what they represent.
 
 
+### Restaurant Inspection 
 
-[Dashboard](https://kk3225.github.io/DSI_hw6/nyc_rest_insp_dashboard.html)
-[repository for dashboard](https://github.com/kk3225/DSI_hw6)
-[Shiny](https://faithparsons.shinyapps.io/dsi_hw6_shiny/).
-[rsepository for shiny](https://github.com/FaithParsons/HW6_Shiny)
 
-[Original Dashboard Repository with errors](https://github.com/kk3225/p8105_hw6_kk3225_p3)
+1) The link for [Dashboard](https://kk3225.github.io/DSI_hw6/nyc_rest_insp_dashboard.html)
 
+2) The link for [repository for dashboard](https://github.com/kk3225/DSI_hw6)
+
+3) The link for [Shiny](https://faithparsons.shinyapps.io/dsi_hw6_shiny/).
+
+4) The link for [Shiny repository](https://github.com/FaithParsons/HW6_Shiny)
+
+5) [Original Dashboard Repository with errors](https://github.com/kk3225/p8105_hw6_kk3225_p3)
+Since the original dashbaord repository has errors in pushing and pulling, we created a new one named 'DSI_hw6' and keep this original repository for showing work history.
+
+6)The link for [data set](http://jeffgoldsmith.com/DSI/dataset_restaurant_inspections.html)
